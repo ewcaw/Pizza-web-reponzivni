@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** reusable *****/
+.row {
+    width: 75% ;
+    margin: 0 auto;
+}
+
+.heading-main h2 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.heading-main h2::after {
+    content: "";
+    display: block;
+    width: 220px;
+    border-bottom: 2px solid #3c7b1d;
+    margin: 5px auto;
+
+}
+
+
+/***** header *****/
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), url("pic/pizza-g4d105c5d4_1920.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+nav ul {
+    float: right;
+    margin-top: 35px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    border-bottom: 2px solid #3c7b1d;
+}
+
+
+.header-text {
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.header-text h1 span {
+    font-size: 165px;
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 8px;
+    text-shadow: 20px 9px 17px #000;
+    line-height: 1.2em;
+
+}
+
+.btn {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid #3c7b1d;
+    border-radius: 3px;
+    padding: 6px 8px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+           
+}
+
+.btn-full {
+    background:#3c7b1d;
+}
+
+.btn-empty {
+    margin-left: 8px;
+    color: #fff;
+    
+}
+
+.btn-full:hover,
+.btn-full:active {
+    
+    background: #2a5514;
+    border: 2px solid #2a5514;
+}
+
+.btn-empty:hover,
+.btn-empty:active {
+    transition:ease 0.5s;
+    background: #3c7b1d;
+    border: 2px solid #3c7b1d;
+    color: #000;
+}
+
+/***** About us *****/
+main {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), #181d23;
+    color: #fff;
+    
+}
+
+.pizza-example img {
+    width: 100%;
+    border-radius: 30px;
+}
+
+/***** Our pizza *****/
+
+
+.pizza-info img {
+    width: 100%;
+    border-radius: 30px;
+    height: 270px;
+}
+
+.text-pizza {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text-pizza div {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #3c7b1d;
+    border-radius: 50%;
+    text-align: center;
+    padding: 12px;
+    float: left;
+}
+
+.text-pizza p {
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+/***** Reference *****/
+.reference {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url("pic/pizza-g4d105c5d4_1920.jpg");
+    background-size: cover;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.one-reference {
+    font-size: 20px;
+}
+
+.one-reference p {
+    font-style: italic;
+}
+
+.foto-name {
+    margin-top: 10px;
+}
+
+.foto-name p {
+    margin-top: 10px;
+    padding: 14px;
+    margin-left: 50px;
+
+}
+
+.foto-name img {
+    width: 50px;
+    float: left;
+}
+
+/***** Footer *****/
+.footer-page {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7)), #181d23;
+    
+}
+
+.social {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.social p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.social p a {
+    display: inline;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.footer-text {
+    color: #797979;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+
+/***** Stop floating *****/
+.clearfix {zoom:1}
+.clearfix::after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+  }
+
+
+
+
+
+
